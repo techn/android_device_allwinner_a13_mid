@@ -30,16 +30,10 @@ PRODUCT_COPY_FILES += \
 #
 
 PRODUCT_COPY_FILES += \
-	device/allwinner/a13_mid/init.sun4i.modules.rc:root/init.sun4i.modules.rc \
+	device/allwinner/a13_mid/init.sun5i.modules.rc:root/init.sun5i.modules.rc \
 	device/allwinner/a13_mid/config/camera.cfg:system/etc/camera.cfg \
 	device/allwinner/a13_mid/config/media_profiles.xml:system/etc/media_profiles.xml \
 	device/allwinner/a13_mid/config/axp20-supplyer.kl:system/usr/keylayout/axp20-supplyer.kl \
 	device/allwinner/a13_mid/config/sun4i-keyboard.kl:system/usr/keylayout/sun4i-keyboard.kl \
 	device/allwinner/a13_mid/config/devicespecific.sh:recovery/root/sbin/devicespecific.sh \
 #
-
-# Prebuilt kernel modules
-#PRODUCT_COPY_FILES += \
-#	$(call find-copy-subdir-files,*,device/ainol/elf2/modules,system/lib/modules)
-
-
